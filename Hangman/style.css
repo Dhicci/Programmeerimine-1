@@ -1,0 +1,60 @@
+#firstRollBtn {
+    background-color: whitesmoke;
+}
+
+#secondRollBtn {
+    background-color: whitesmoke;
+}
+
+#wordDiv {
+    margin-left: 20%;
+    margin-top: 5%;
+    height: 50px;
+}
+
+.letterDiv {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+}
+
+.letterText {
+    margin-left: 35%;
+    margin-top: 25%;
+    font-size: 30px;
+    font-weight: bolder;
+    visibility: collapse;
+}
+
+#guessText {
+    resize: none;
+    height: 25px;
+    width: 200px;
+}
+
+#guessDiv{
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+#victory {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 40%;
+    visibility: hidden;
+}
+
+#defeat {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 40%;
+    visibility: hidden;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: bolder;
+}

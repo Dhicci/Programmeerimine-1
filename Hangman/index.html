@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <title>Poomismäng</title>
+</head>
+<body>
+    <div id="victory">
+        <h1>Võit!</h1>
+        <button id="refreshBtn" type="submit" onclick="Refresh()">Mängi uuesti</button>
+    </div>
+    <div id="defeat">
+        <h1>Kaotus!</h1>
+        <button id="refreshBtn" type="submit" onclick="Refresh()">Mängi uuesti</button>
+    </div>
+    <p id="hitpoints">Elupunkte on 7</p>
+    <div id="firstRoll">
+        <button id="firstRollBtn" type="submit" onclick="FirstRoll()">D20</button>
+        <p id="firstRollResult"></p>
+    </div>
+    <div id="secondRoll">
+        <button id="secondRollBtn" type="submit" onclick="SecondRoll()">D%</button>
+        <p id="secondRollResult"></p>
+    </div>
+    <div id="wordDiv"></div>
+    <div id="guessDiv">
+        <textarea id="guessText" maxlength="1" placeholder="Sisesta üks tähemärk"></textarea>
+        <button id="guessBtn" type="submit" onclick="CheckLetter()">Sisesta</button>
+    </div>
+    <script type="text/javascript" src="hangman.js"></script>
+</body>
+
+</html>
